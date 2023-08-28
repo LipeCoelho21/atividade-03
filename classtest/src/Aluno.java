@@ -5,6 +5,10 @@ public class Aluno extends Pessoa {
     private String matricula;
     private LocalDate dataMatricula;
     
+    public Aluno() {
+        super();
+    }
+
     public String getMatricula() {
         return matricula;
     }
